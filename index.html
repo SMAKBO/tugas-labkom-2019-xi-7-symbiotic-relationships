@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>Kelompok 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("nemo.jpg");
+  min-height: 90%;
+}
+</style>
+<head>
+  
+  </head>
+<body>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">AYO BELAJAR!1!1</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:80px">Symbiotic Relationships<br>in Marine Ecosystems</span>
+    
+    
+  </div>
+</header>
+<div class="container">
+  <div class="gfx"><span></span></div>
+  <div class="top">
+    <div  class="navigation" > <a href="#" id="selected">SIMBIOSIS</a> <a href="index 2.html" >EKOLOGI</a> <a href="index 3.html">Ecological Relationship</a> </div>
+    <div class="pattern"><span></span></div>
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">WHAT'S SYMBIOSIS?</h1>
+    <p>Simbiosis (dari bahasa Yunani συμβίωσις "hidup bersama", yang berasal dari kata σύν "bersama" dan βίωσις "hidup") adalah semua jenis interaksi biologis jangka panjang dan dekat antara dua organisme biologis yang berbeda, baik itu mutualisme, komensalisme, atau parasitisme. Organisme yang terlibat tersebut, masing-masing disebut simbion, bisa berasal dari spesies yang sama atau berbeda. Pada tahun 1879, Heinrich Anton de Bary mendefinisikannya sebagai "organisme berbeda yang hidup bersama". <br>
+
+    Simbiosis dapat menjadi sesuatu yang obligat, yang berarti satu atau kedua simbion sepenuhnya bergantung satu sama lain untuk bisa bertahan hidup, atau fakultatif (opsional) ketika mereka umumnya dapat hidup mandiri. <br>
+
+    Simbiosis juga diklasifikasikan berdasarkan keterikatan fisik; Simbiosis yang organismenya memiliki persatuan tubuh disebut simbiosis konjungtif, dan simbiosis di mana mereka tidak bersatu disebut simbiosis disjungtif. Ketika satu organisme hidup di organisme lain seperti mistletoe, disebut ektosimbiosis, ketika satu partner hidup di dalam jaringan organisme lain, seperti Symbiodinium pada koral maka disebut endosimbiosis.</p>
+    <img src="penyu.jpg" style="width:50%" class="w3-circle w3-right" alt="Chef">
+    <img src="hiu.jpg" style="width:50%" class="w3-circle w3-right" alt="Restaurant">
+    <img src="udang.jpg" style="width:50%" class="w3-circle w3-right" alt="Chef">
+    <img src="timun laut.jpg" style="width:50%" class="w3-circle w3-right" alt="Chef">
+    
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xlarge">
+  <p>Created by Kelompok 3 (XI-7)</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+</body>
+</html>
